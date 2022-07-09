@@ -16,9 +16,9 @@ function summ() {
   const sum = n1 + n2
   var rest = 0
   if (sum % 2 == 0) {
-    rest = ' é par'
+    rest = ' é par '
   } else {
-    rest = ' é ímpar'
+    rest = ' é ímpar '
   }
   let sumResult = document.getElementById('result')
   let result = 'O resultado da soma é: ' + sum + '' + rest + check(n1, n2)
@@ -79,8 +79,8 @@ function restdivv() {
 
 function check(n1, n2) {
   if (n1 === n2) {
-    return ' os números inseridos são iguais'
+    return ', e os números inseridos são iguais'
   } else {
-    return ' os números inseridos são diferentes'
+    return ', e os números inseridos são diferentes'
   }
 }

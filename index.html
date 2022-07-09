@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercícios Javascript</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@800&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <script src="script.js"></script>
-    <header>
-      <h1>Cálculo, variáveis, condicionais e comparadores.</h1>
-      <img src="#" alt="logo com meu nome Bruna Brandão" />
-    </header>
-
-    <main>
+    <div class="center">
+      <img
+        id="logo"
+        src="image/brunalogo.png"
+        alt="logo com meu nome Bruna Brandão"
+      />
+      <h1 id="title">Cálculo, variáveis, <br />condicionais e comparadores.</h1>
       <label for="primeiro">Insira o primeiro número: </label>
-      <input type="number" id="valor1" size="3" /><br />
+      <input
+        type="number"
+        id="valor1"
+        size="3"
+        placeholder="1, 2, 3..."
+      /><br /><br />
       <label for="segundo">Insira o segundo número: </label>
-      <input type="number" id="valor2" size="3" />
+      <input type="number" id="valor2" size="3" placeholder="1, 2, 3..." />
+      <br />
       <button type="submit" onclick="summ()">+</button>
+
       <button type="submit" onclick="subb()">-</button>
+
       <button type="submit" onclick="multii()">*</button>
+
       <button type="submit" onclick="divv()">/</button>
+
       <button type="submit" onclick="restdivv()">%</button>
-    </main>
-    <section>
       <h2>Resultado:</h2>
       <div id="result"></div>
-    </section>
+    </div>
   </body>
 </html>
