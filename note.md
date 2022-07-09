@@ -27,3 +27,9 @@ alert('os números inseridos são iguais')
 } else {
 alert('os números inseridos são diferentes')
 }
+
+uma maneira de fazer o arrendondamento do valor dos calculos
+function arround(result) {
+return result.toFixed(2)
+essa variável você coloca declara dentro de cada função let sumToFlot = arround(sum)
+}
