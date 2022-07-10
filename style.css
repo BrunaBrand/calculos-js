@@ -46,6 +46,18 @@ button:hover {
   background-color: #7d42b7e1;
 }
 
+
+footer{
+  padding-top: 100px;
+  justify-content:center;
+
+}
+
+footer img {
+  width: 20px;
+  height: 15px;
+  
+}
 /* header{
   display: flex;
   align-items:center;
