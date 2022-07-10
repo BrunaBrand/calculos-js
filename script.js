@@ -11,9 +11,9 @@ function summ() {
 
   var rest = 0
   if (sum % 2 == 0) {
-    rest = ' é par '
+    rest = ' é par'
   } else {
-    rest = ' é ímpar '
+    rest = ' é ímpar'
   }
   let sumResult = document.getElementById('result')
   let result = 'O resultado da soma é: ' + sumToFlot + '' + rest + check(n1, n2)
